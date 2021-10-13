@@ -12,6 +12,10 @@
     min-height: 100px;
 }
 
+header {
+    margin-top: 100px;
+}
+
 #jumbo_sopra {
     background-color: green;
     width: 100%;
@@ -44,6 +48,36 @@
 
 #play4 {
     background-color: greenyellow;
+    min-height: 400px;
+    width: 100%;
+}
+
+#plus {
+    background-color: grey;
+    min-height: 400px;
+    width: 100%;
+}
+
+#store {
+    background-color: magenta;
+    min-height: 400px;
+    width: 100%;
+}
+
+#now {
+    background-color: orangered;
+    min-height: 400px;
+    width: 100%;
+}
+
+#social {
+    background-color: tomato;
+    min-height: 400px;
+    width: 100%;
+}
+
+#copyright {
+    background-color: sienna;
     min-height: 400px;
     width: 100%;
 }
