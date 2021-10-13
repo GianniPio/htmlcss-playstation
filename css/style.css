@@ -5,3 +5,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#nav_logo {
+   border: 1px solid red;
+    width: 100%;
+    min-height: 100px;
+}
+
+#jumbo {
+    background-color: green;
+    width: 100%;
+    min-height: 500px;
+}
+
+#sotto_jumbo {
+    background-color: brown;
+    min-height: 100px;
+    width: 100%;
+}
