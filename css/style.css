@@ -12,14 +12,20 @@
     min-height: 100px;
 }
 
-#jumbo {
+#jumbo_sopra {
     background-color: green;
     width: 100%;
     min-height: 500px;
 }
 
-#sotto_jumbo {
+#jumbo_sotto {
     background-color: brown;
     min-height: 100px;
+    width: 100%;
+}
+
+#play5 {
+    background-color: chartreuse;
+    min-height: 700px;
     width: 100%;
 }
