@@ -29,3 +29,15 @@
     min-height: 700px;
     width: 100%;
 }
+
+#game {
+    background-color: darkblue;
+    min-height: 400px;
+    width: 100%;
+}
+
+#new_game {
+    background-color: deeppink;
+    min-height: 400px;
+    width: 100%;
+}
