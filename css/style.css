@@ -19,7 +19,11 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 700px;
+    height: 700px;
+}
+
+#jumbo_sopra .row .offset-12 {
+    height: 300px;
 }
 
 #jumbo_sotto {
