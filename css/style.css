@@ -124,17 +124,14 @@ header {
 /* tag store */
 
 #store {
-    background-color: magenta;
     min-height: 400px;
-    width: 100%;
 }
 
 /* tag now */
 
 #now {
-    background-color: orangered;
-    min-height: 400px;
-    width: 100%;
+    background-color: #161c3b;
+    color: white;
 }
 
 
