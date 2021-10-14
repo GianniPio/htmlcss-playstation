@@ -78,7 +78,7 @@ header {
     color: #0072ce;
 }
 
-#play5 .fw-bold {
+#play5 .fw-bold, #play4 .fw-bold {
     color: #737373;
 }
 
@@ -107,8 +107,6 @@ header {
 /* tag play4 */
 
 #play4 {
-    background-color: greenyellow;
-    min-height: 400px;
     width: 100%;
 }
 
