@@ -28,7 +28,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 620px;
+    min-height: px;
     color: white;
 }
 
@@ -41,7 +41,7 @@ header {
     padding: 10px;
 }
 
-#jumbo_sopra button {
+#jumbo_sopra button, #game button {
     background-color: #cd3d0f;
     border: 1px solid #cd3d0f;
 }
@@ -86,10 +86,15 @@ header {
 /* tag game */
 
 #game {
-    background-color: darkblue;
-    min-height: 400px;
-    width: 100%;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 620px;
+    color: white;
+
 }
+
 
 /* tag new game */
 
