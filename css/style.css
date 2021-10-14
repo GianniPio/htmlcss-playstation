@@ -26,9 +26,8 @@ header {
 #jumbo_sopra {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    min-height: px;
+    min-height: 620px;
     color: white;
 }
 
@@ -88,20 +87,21 @@ header {
 #game {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     min-height: 620px;
     color: white;
-
 }
-
 
 /* tag new game */
 
 #new_game {
-    background-color: deeppink;
-    min-height: 400px;
-    width: 100%;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+#new_game img {
+    border-radius: 15%;
+    padding: 20px 10px;
 }
 
 /* tag play4 */
