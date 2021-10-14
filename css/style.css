@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: Arial;
 }
-
 /* Tag nav */
 
 #logo {
@@ -113,9 +112,13 @@ header {
 /* tag plus */
 
 #plus {
-    background-color: grey;
-    min-height: 400px;
+    background-color: #bebcbb;
     width: 100%;
+}
+
+#plus button {
+    background-color: #d9dadc;
+    color: #396de5;
 }
 
 /* tag store */
