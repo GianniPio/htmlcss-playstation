@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial;
 }
 
 #logo {
@@ -20,11 +21,23 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
+    color: white;
 }
 
-#jumbo_sopra .row .offset-12 {
-    height: 300px;
+.padd_title_jumb {
+    padding-top: 300px;
 }
+
+.phrase {
+    font-size: 40px;
+    padding: 10px;
+}
+
+#jumbo_sopra button {
+    background-color: #cd3d0f;
+    border: 1px solid #cd3d0f;
+}
+
 
 #jumbo_sotto {
     background-color: brown;
