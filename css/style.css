@@ -7,6 +7,8 @@
     font-family: Arial;
 }
 
+/* Tag nav */
+
 #logo {
     height: 50px;
 }
@@ -14,6 +16,8 @@
 .font_navbar {
     font-family: Helvetica;
 }
+
+/* tag header */
 
 header {
     margin-top: 126px;
@@ -49,16 +53,13 @@ header {
 
 .returnal {
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100px;
-    width: 100%;
-    margin: 10px 0;
 }
 
 .ratchet {
     background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg);
+}
+
+.img_jumb {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -67,11 +68,22 @@ header {
     margin: 10px 0;
 }
 
+/* tag play5 */
+
 #play5 {
-    background-color: chartreuse;
     min-height: 700px;
     width: 100%;
 }
+
+#play5 .fs-6 {
+    color: #0072ce;
+}
+
+#play5 .fw-bold {
+    color: #737373;
+}
+
+/* tag game */
 
 #game {
     background-color: darkblue;
@@ -79,11 +91,15 @@ header {
     width: 100%;
 }
 
+/* tag new game */
+
 #new_game {
     background-color: deeppink;
     min-height: 400px;
     width: 100%;
 }
+
+/* tag play4 */
 
 #play4 {
     background-color: greenyellow;
@@ -91,11 +107,15 @@ header {
     width: 100%;
 }
 
+/* tag plus */
+
 #plus {
     background-color: grey;
     min-height: 400px;
     width: 100%;
 }
+
+/* tag store */
 
 #store {
     background-color: magenta;
@@ -103,17 +123,24 @@ header {
     width: 100%;
 }
 
+/* tag now */
+
 #now {
     background-color: orangered;
     min-height: 400px;
     width: 100%;
 }
 
+
+/* tag social */
+
 #social {
     background-color: tomato;
     min-height: 400px;
     width: 100%;
 }
+
+/* tag copyright */
 
 #copyright {
     background-color: sienna;
