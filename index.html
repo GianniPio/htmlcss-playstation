@@ -20,7 +20,6 @@
 
         </div>
     
-
         <!-- navbar -->
         <div class="col-12">
 
@@ -30,7 +29,7 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="collapse navbar-collapse position-relative" id="navbarNavDropdown">
                         <ul class="navbar-nav font_navbar">
 
                             <!-- Lista Giochi -->
@@ -104,19 +103,21 @@
                                 </ul>
                             </li>
 
-                            <!-- Lista MyPlay -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            My Playstation
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Accedi</a></li>
-                            </ul>
-                        </li>
+                            <div class="position-absolute end-0 d-lg-flex flex-lg-row">
+                                <!-- Lista MyPlay -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    My Playstation
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Accedi</a></li>
+                                    </ul>
+                                </li>
 
-                        <button type="button" class="btn btn-dark rounded-pill fw-bold">Accedi</button>
+                                <button type="button" class="btn btn-dark rounded-pill fw-bold">Accedi</button>
 
-                        <img class="lens d-flex align-self-center ms-2" src="img/lens.svg" alt="Ricerca">
+                                <img class="lens d-flex align-self-center ms-2" src="img/lens.svg" alt="Ricerca">
+                            </div>
 
                         </ul>
                     </div>
