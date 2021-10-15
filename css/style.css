@@ -74,13 +74,14 @@ header {
 
 /* tag play5 */
 
-#play5 {
-    min-height: 700px;
-    width: 100%;
-}
+
 
 #play5 .fs-6 {
     color: #0072ce;
+}
+
+.accessories div {
+    opacity: 0.75;
 }
 
 #play5 .fw-bold, #play4 .fw-bold {
@@ -164,4 +165,13 @@ header {
 .SIE {
     width: 140px;
     height: 60px;
+}
+
+
+
+/* tag animazioni */
+
+.accessories div:hover {
+    opacity: 1;
+    border-bottom: 3px solid #3790d8;
 }
