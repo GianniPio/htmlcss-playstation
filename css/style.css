@@ -137,7 +137,21 @@ header {
 /* tag copyright */
 
 #copyright {
-    background-color: sienna;
-    min-height: 400px;
-    width: 100%;
+    background-color: #00439c;
+    color: white;
+}
+
+#copyright div div p img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+#copyright ul {
+    list-style-type: none;
+}
+
+#copyright ul li a {
+    color: white;
+    text-decoration: none;
 }
