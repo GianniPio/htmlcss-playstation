@@ -103,17 +103,10 @@ header {
     padding: 20px 10px;
 }
 
-/* tag play4 */
-
-#play4 {
-    width: 100%;
-}
-
 /* tag plus */
 
 #plus {
     background-color: #bebcbb;
-    width: 100%;
 }
 
 #plus button {
@@ -138,9 +131,7 @@ header {
 /* tag social */
 
 #social {
-    background-color: tomato;
     min-height: 400px;
-    width: 100%;
 }
 
 /* tag copyright */
